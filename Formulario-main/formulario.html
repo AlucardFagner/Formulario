@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <title>Formulário Arcade City</title>
+    
+</head>
+
+<body>
+    <form method="POST" action="exibirdados2.php">
+        <div class="container">
+            <div class="form-image">
+                <img src="assets/img//background.gif" alt="">
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+                        <!--    <div class="login-button">
+                        <button><a href="#">Entrar</a></button> 
+                    </div> -->
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="nome">Primeiro Nome</label>
+                            <input id="nome" type="text" name="nome" placeholder="Digite seu primeiro nome" required>
+                            <!--    <p class="erro-nome vermelho d-none">Nome é obrigadorio</p>  -->
+                        </div>
+
+                        <div class="input-box">
+                            <label for="nome">Sobrenome</label>
+                            <input id="sobrenome" type="text" name="sobrenome" placeholder="Digite seu sobrenome"
+                                required>
+                            <!--    <p class="erro-nome vermelho d-none">Sobrenome é obrigadorio</p> -->
+                        </div>
+                        <div class="input-box">
+                            <label for="email">E-mail</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                            <!--    <p class="erro-email vermelho d-none">E-mail é obrigadorio</p> -->
+                        </div>
+
+                        <div class="input-box">
+                            <label for="text">Whitelist</label>
+                            <input id="id" type="text" name="id" placeholder="Digite seu ID" required>
+                            <!--    <p class="erro-id vermelho d-none">Whitelist é obrigadorio</p> -->
+                        </div>
+
+                        <div class="input-box">
+                            <label for="password">Senha</label>
+                            <input id="password" type="password" name="password" placeholder="Digite sua senha"
+                                required>
+                            <!--     <p class="erro-password vermelho d-none">Senha é obrigadorio</p> -->
+                        </div>
+
+
+                        <div class="input-box">
+                            <label for="confirmPassword">Confirme sua Senha</label>
+                            <input id="confirmPassword" type="password" name="confirmPassword"
+                                placeholder="Digite sua senha novamente" required>
+                            <!--    <p class="erro-confirmPassword vermelho d-none">Obrigadorio confirmar a senha</p> -->
+                        </div>
+
+                    </div>
+
+                    <div class="gender-inputs">
+                        <div class="gender-title">
+                            <h6>Gênero</h6>
+                        </div>
+
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input id="female" type="radio" name="gender" required>
+                                <label for="female">Feminino</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input id="male" type="radio" name="gender">
+                                <label for="male">Masculino</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input id="others" type="radio" name="gender">
+                                <label for="others">Outros</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input id="none" type="radio" name="gender">
+                                <label for="none">Prefiro não dizer</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="continue-button">
+                        <button class="submit">Continuar</button>
+                        <!--     <button><a href="#">Continuar</a> </button>  -->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script src="assets/js/scrip.js"></script>
+</body>
+
+</html>
