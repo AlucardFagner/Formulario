@@ -2,7 +2,7 @@ $("#clique").click(function(){
     $(this).css("color", "red");
 })
 
-$("#btn-submit").on("click",function (e){
+$("#neon-button").on("click",function (e){
     let nome = $("#nome");
     nome.css("border", "1px solid black");
     $("p.erro-nome").hide()
